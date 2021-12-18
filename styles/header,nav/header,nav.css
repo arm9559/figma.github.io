@@ -1,0 +1,117 @@
+.navbar-brand {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+button {
+  margin-top: -5px;
+  width: 132px !important;
+  height: 42px !important;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #1c0320 201.02%);
+  border-radius: 5px !important;
+}
+
+header {
+  background: #686BE0;
+  color: #efefef;
+  height: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+header .header-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 25px;
+}
+header .header-child p {
+  cursor: pointer;
+}
+header .header-child p:hover {
+  text-decoration: underline;
+}
+header .drop-down ul {
+  list-style: none;
+}
+header .drop-down ul li {
+  text-align: center;
+}
+header .drop-down ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+header .drop-down ul li .none {
+  display: none;
+}
+header .drop-down button {
+  background: none !important;
+  color: black;
+  height: 35px !important;
+  font-size: 15px;
+  border: none !important;
+}
+
+nav {
+  position: relative;
+  top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+nav .nav-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+nav .nav-child .logo-container {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 7px;
+}
+nav .ul-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 45px;
+}
+nav .ul-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 45px;
+  list-style: none;
+}
+nav .ul-container ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav .ul-container button {
+  width: 132px !important;
+  height: 42px !important;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 5px !important;
+}

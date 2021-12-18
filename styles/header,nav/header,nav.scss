@@ -1,0 +1,94 @@
+    .navbar-brand{
+        display: flex !important;
+    }
+        button{
+            margin-top: -5px;
+            width: 132px !important;
+            height: 42px !important;
+            background: linear-gradient(90.35deg, #2563EB 0.36%, #1c0320 201.02%);
+            border-radius: 5px !important;
+        }
+    header{
+        background:#686BE0;
+        color:#efefef;
+        height: 95px;
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        .header-child{
+            display: flex;
+            grid-gap: 25px;
+            p{
+                cursor: pointer;
+            }
+            p:hover{
+                text-decoration: underline;
+            }
+        }
+        .drop-down{
+            ul{
+                list-style: none;
+                li{
+                    text-align: center;
+                    a{
+                        text-decoration: none;
+                        color:black;
+                        cursor: pointer;
+                    }
+                    .none{
+                        display: none;
+                    }
+                }
+            }
+            button{
+                background:none !important;
+                color:black;
+                height: 35px !important;
+                font-size: 15px;
+                border:none !important;
+            }
+        }
+    }
+    nav{
+       position: relative;
+       top:48px;
+       display: flex;
+       flex-direction: column;
+        .nav-child{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .logo-container{
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            display: flex;
+            grid-gap: 7px;
+            }
+        }
+        .ul-container{
+            display: flex;
+            grid-gap: 45px;
+            ul{
+                display: flex;
+                grid-gap: 45px;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                }
+        }
+        button{
+            width: 132px !important;
+            height: 42px !important;
+            background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+            border-radius: 5px !important;
+            }
+        }
+    }

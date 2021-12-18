@@ -1,0 +1,41 @@
+#preloader{
+    position: relative;
+    background: rgb(218,53,3);
+    background: linear-gradient(90deg, rgba(218,53,3,1) 0%, rgba(33,33,45,1) 0%, rgba(6,6,90,1) 0%, rgba(0,44,255,1) 0%, rgba(7,39,189,1) 0%, rgba(83,9,117,1) 0%, rgba(21,28,48,1) 100%);
+    color:white;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        animation:rule 5s infinite;
+    }
+    .preloader-child{
+        display: flex;
+        justify-content: center;
+        .progress-bar{
+            margin-top: 5px;
+            height: 5px;
+            border-radius: 12px;
+            .progress{
+                height: 5px;
+                border-radius: 12px;
+                width: 0px;
+                .progress-text{
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes rule{
+    from{
+        transform:rotate(0)
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}

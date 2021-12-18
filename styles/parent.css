@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body {
+  background: url("../media/other/bg.jpg");
+  height: auto;
+  background-size: cover;
+}
+/*# sourceMappingURL=parent.css.map */

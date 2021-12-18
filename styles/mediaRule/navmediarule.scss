@@ -1,0 +1,16 @@
+@media only screen and(max-width:1024px){
+    main{
+        position: relative;
+        top:75px;
+    }
+    .child-first,.child-second{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and(min-width:1024px){
+    .child-first,.child-second{
+        display: flex;
+        flex-direction: row;
+    }
+}

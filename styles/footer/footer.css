@@ -1,0 +1,91 @@
+footer {
+  position: relative;
+  top: 689px;
+}
+
+footer .footer-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer-child .item ul {
+  list-style: none;
+}
+
+footer .footer-child .item ul .logo {
+  font-family: "Rubik",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+footer .footer-child .item ul .icons-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+footer .footer-child .item ul .icons-group a {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 254, 255, 0.0145)), to(rgba(255, 255, 255, 0.02)));
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+footer .footer-child .item ul li a {
+  text-decoration: none;
+  font-family: "DM Sans",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer .hr {
+  background: #969696;
+  opacity: 0.2;
+  height: 1px;
+  width: 100%;
+}
+
+footer .allrights {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .allrights span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 15px;
+}
+
+footer .allrights span p {
+  font-family: "DM Sans",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+/*# sourceMappingURL=footer.css.map */
